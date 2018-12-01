@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+
+<head lang="fr">
+    <meta charset="UTF-8" />
+    <title>La justice prédictive pour les nuls</title>
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="icon" href="img/logo.ico"/>
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+</head>
+
+  <body>
+        <header>
+      <ul id="menu-deroulant">
+        <li><a href="index.html">La justice prédictive pour les nuls</a>
+        <li><a href="#">Les Parties</a>
+          <ul>
+            <li><a href="introduction.html">Introduction</a></li>
+            <li><a href="methode.html">La méthode</a></li>
+            <li><a href="algorithmes.html">La Fiabilité des algorithme</a></li>
+            <li><a href="marchandisation.html">Marchandisation de la justice</a></li>
+            <li><a href="dangers.html">Les Dangers de la justice prédictive</a></li>
+            <li><a href="citoyens.html">Les citoyens et la justice predictive</a></li>
+            <li><a href="conciliation.html">La conciliation Homme-Robot</a></li>
+            <li><a href="conclusion.html">Conclusion</a></li>
+            <li><a href="annexes.html">Annexes</a></li>
+          </ul>
+    </header>
+
+
+      <div class="box_img">
+        <h1>La fiabilité des algorithmes</h1>
+        <img src="">
+      </div>
+
+      <div class="box_contenu">
+      <h3>La fiabilité des algorithmes</h3>
+
+      <center><video controls src="vid.mp4"></video></center>
+
+      <h4 id="ancre1">Introduction</h4>
+
+
+      <p class="text_italic">Peut-on faire confiance aux robots ?</p>
+
+      <p class="text_basic">C’est avec cette question aux allures de science-fiction mais pourtant pertinente que nous allons tout d’abord aborder le thème des algorithmes au service de la justice prédictive.</p>
+      <p class="text_basic">C’est en effet sur des concepts d’intelligence artificielle que se basent les principes de justice prédictive. Pour en étudier les principales caractéristiques nous nous appuierons tout au long de cette rubrique sur le logiciel de Predictice, la start-up de justice prédictive sur laquelle nous nous sommes concentrés. 
+</p>
+      <p class="text_basic">Dans une première partie, nous verrons que l’intelligence artificielle au service de la justice apparaît comme un outil performant. Dans une seconde partie nous étudierons les imperfections des algorithmes et leurs effets sur la justice et les professionnels du droit. </p>
+
+      <h4 id="ancre2">L’intelligence artificielle au service de la justice : un outil performant.</h4>
+
+      <p class="text_basic">Le machine learning est une partie de l’intelligence artificielle, celle qui tend à se développer de manière exponentielle depuis quelques années. Selon Arthur Samuel, pionnier du processus, c’est un « champ d’étude qui donne aux ordinateurs la capacité d’apprendre sans être explicitement programmés à apprendre ». Ce qu’il est indispensable de noter est que le machine learning apprend par l’entraînement : plus on lui donne de données, plus on les lui fait analyser, plus on le corrige, plus il est compétent.</p>
+      <p class="text_basic">Le principal but du machine learning est la compréhension du langage naturel. Ainsi, un ensemble de techniques auront pour objectifs la classification et la prédiction. La classification permet de placer des individus dans des classes (c’est-à-dire dans des ensembles de personnes qui partagent des caractéristiques statistiques). La prédiction quant à elle constitue à observer les comportements du passé, à partir desquels on repère des schémas récurrents qui amènent à certaines issues. Quand l’algorithme repère un début de schéma déjà connu dans le présent elle peut faire une prédiction sur son issue, en se basant sur les schémas précédents. </p>
+      <p class="text_basic">En fin de compte, le machine learning prend en entrée des données, les analyse, repère des schémas récurrents dans les données et construit un outil capable d’en classifier ou prédire l’issue. </p>
+      <center><img src="c1.png"></center>
+      <p class="text_basic">Un deuxième élément, relié au premier, massivement utilisé par les logiciels de justice prédictive, notamment au sein de Predictice est le volet d’action découlant du machine learning : le natural language processing (NLP)
+</p>
+      <p class="text_basic">Le NLP a pour but de procéder à l’analyse d’un texte et apprendre à la machine à lire des caractères, les comprendre et pouvoir les mettre en relation. Pour cela, il est nécessaire de créer une représentation mathématique, d’abord des mots présents dans le texte, puis du document entier. </p>
+      <p class="text_basic">Ainsi des modèles comme Word2Vec convertissent directement un mot en un vecteur.  Grâce aux données présentes dans son système, le logiciel fait des opérations et identifie plusieurs “espaces” dans lesquels il classe les vecteurs en fonction du lien qu’ils ont entre eux. Ainsi, il classera “père” et “mère” dans des espaces proches car ces deux mots ont un lien fort. Par contre “moquette” sera dans un espace beaucoup plus loin. Le calcul de base utilisé pour présenter le fonctionnement de Word2vec est : “mère” - “femme” + “homme” = “père” et résume bien le travail effectué par la machine. Ce modèle étant extensible, ensuite avec Doc2vec pour transformer les vecteurs constituant un document en un seul vecteur afin de le comparer avec d’autres documents (ou vecteurs). Pour exploiter les résultats obtenus, il suffit d’établir le meilleur espace possible entre le cas que l’on souhaite étudier et les cas déjà intégrés dans le système, sous forme de données. </p>
+      <p class="text_basic">Dans le cas de Predictice, par exemple pour un avocat cherchant combien d’indemnités son client risque de toucher suite à un licenciement abusif, le logiciel cherchera à établir le plus de liens possible entre cette affaire et une ou plusieurs affaires dont il est nourri dans sa base de données, autrement dit à créer pour cette affaire un espace le plus proche possible des autres affaires similaires, grâce aux vecteurs en fonction desquels l’affaire a été convertie.</p>
+      <center><img src="c2.png"></center>
+      <p class="text_italic">Par ailleurs, le deep learning, branche du machine learning, lui-même branche de l’intelligence artificielle, peut également servir aux algorithmes utilisées pour la justice prédictive bien qu’il soit moins bien développé. Le deep learning correspond à une méthode d’application du machine learning. </p>
+      <p class="text_basic">Il convient en effet de noter qu’au sein du machine learning il existe des algorithmes avec supervision : l’homme guide, donne des catégories et la machine les reprend car il sait les analyser. L’homme l’alimente et le corrige en fonction de son taux de réussite ; on appelle ça la rétroaction directe. Cependant il existe également des algorithmes sans supervision. C’est le deep learning. Capable d’apprendre sans qu’on lui donne un modèle à partir duquel se baser, l’algorithme non supervisé apprend de la structure des données. Il n’y a pas de retour constant de la part de l’homme, l’algorithme recherche en fait des “features” (caractéristiques) cachées, non découvertes par l’homme pour former ses propres motifs depuis les données. </p>
+      <p class="text_basic">Ce modèle se base sur le fonctionnement neuronal du cerveau. Ainsi, il construit des liens entre les données dont il dispose, que l’on nomme des nodes (usuellement traduit par “neurones” en français).L’intelligence artificielle travaille chaque node et finit par les connecter, comme cela se passe naturellement dans le cerveau. Alors que le machine learning de base est guidé par l’homme, apprenant à partir seulement des caractéristiques données par l’homme, le deep learning. On ne donne pas les caractéristiques : trouve des structures cachées dans les données et construit des groupes : quand la machine identifie 2 groupes, l’homme les nomme. On ne donne rien : la machine apprend de la structure cachée des données. En fonction des données qu’elle récupère, elle fortifie les liens entre les différents neurones en créant des réseaux de neurones. </p>
+      <p class="text_basic">L’empilement de nodes permet à la machine, à terme, de faire aussi bien que ce que l’homme fait en moins de 0.1 seconde, c’est-à-dire par exemple la reconnaissance de caractères, d’objets, etc.. C’est pourquoi cette méthode est idéale pour des logiciels comme celui de Predictice. Cependant, sa mise en place est encore très coûteuse et complexe, ce qui ne facilite pas son utilisation. </p>
+      <p class="text_basic">Ensuite, le développement de la justice prédictive telle que nous la définissons dans le cadre de notre enquête permet une accélération certaine du processus judiciaire, voire son élimination partielle. </p>
+      <p class="text_basic">Predictice se dote de ce qui semble s’apparenter à un moteur de recherche mais qui abrite en fait ses algorithmes dont le développement a coûté plus de 2 millions d’euros. Un professionnel du droit doté du service peut alors, en insérant des mots clés dans la barre de recherche accéder à un large panel d’informations concernant des affaires similaires à la sienne. Ainsi, les compagnies ou cabinets d’avocats faisant recours à des services comme ceux proposés par Predictice peuvent se targuer de plusieurs avantages fortement attractifs. </p>
+      <center><img src="c3.png"></center>
+      <p class="text_basic">Dans un premier cas, Predictice met en avant quatre arguments favorables à son service. Tout d’abord, le simple fait d’être doté de cette technologie attire la clientèle, de par sa modernité et mais aussi de par ses promesses d’augmentation des chances de succès. Par ailleurs, il permet au professionnel du droit d’adapter son argumentation ou sa stratégie en fonction des issues les plus probables du règlement du litige. De plus, il fournit un gain de temps considérable à l’analyse du dossier, impliquant donc une baisse des frais pour le professionnel mais aussi pour le client. Et enfin, l’argumentation étant adaptée à la jurisprudence, les chances de succès augmentent, ce qui implique, encore une fois, une hausse du chiffre d’affaire.
+</p>
+      <p class="text_basic">Dans un second cas, l’utilisation de la justice prédictive permet tout simplement de réduire le nombre de litiges menés en justice. Le graphique ci-dessous illustre cette idée :</p>
+      <center><img src="c4.png"></center>
+      <p class="text_basic">En effet, la prédiction de l’issue d’un litige a pour effet une augmentation des résolutions des conflits à l’amiable, puisque les deux parties étant au courant de ce qui est d’ordinaire décidé pour des cas semblables au leur, elles peuvent parvenir à un accord évitant la complexité et les coûts d’une affaire parvenue devant un tribunal. Cela a une fois de plus pour conséquence une baisse des coûts de la compagnie ou du cabinet d’avocat et donc une hausse du chiffre d’affaire, qui peut elle aussi se convertir en baisse du coût demandé à la clientèle. 
+  Predictice, a donc, en apparence, de quoi attirer de nombreux clients au vu des avantages qu’il peut procurer à son usager. 
+</p>
+      <p class="text_basic">Enfin, Predictice présente un bilan positif de ses actions, preuve d’une part de réussite de la justice prédictive. 
+Ainsi, Predictice compte plus de 300 structures abonnées de toute taille (de l'avocat individuel aux directions juridiques du CAC 40) pour un peu plus de 1 500 utilisateurs quand Doctrine, son principal concurrent compte un peu plus de 1 000 utilisateurs. Bien que la plateforme ne séduise pas encore les juges, eux-mêmes déjà dotés d’un moteur de recherche ultra-puissant, Predictice ne cesse d’équiper de plus en plus de structures juridiques et devient un outil de plus en plus répandu, surtout dans les cabinets d’avocats. La start-up n’est en cesse de recruter pour agrandir sa structure, preuve de la réussite de l’entreprise commerciale.
+A la critique récurrente d’un abus de langage concernant le terme de “justice prédictive”, Louis Larret-Chahine, co-fondateur de Predictice rétorquera qu’il provient d’une mauvaise traduction de “predictive justice” en anglais, “justice prévisible” en français. 
+</p>
+      <p class="text_basic">L’algorithme de Predictice lit 2 millions de décisions de justice en 1 seconde sur un total de 3 millions de décisions de justice présentes dans les données de l’algorithme. Toutes les décisions sont donc lues en une seconde et demi. Le taux de succès du logiciel s’élève à 96%, le rendant donc légitime à une utilisation régulière et sérieuse de la part des professionnels du droit. </p>
+      <p class="text_basic">Predictice se place donc en tant que chef de file des LegalTech françaises, ne subissant l’ombre que d’un seul concurrent, Doctrine. Ceci est en partie dû au coût très élevé de développement des algorithmes, réduisant la concurrence. Le marché de la justice prédictive est donc pour l’instant très limité, ce qui explique également un succès imminent et exponentiel. </p>
+
+
+      <h4 id="ancre3">A cette performance se greffe une incertitude quant à la profondeur de la confiance que l’on peut accorder à ces algorithmes.</h4>
+
+      <p class="text_basic">La justice prédictive se base sur une intelligence artificielle se nourrissant des décisions de justice, c’est-à-dire de la jurisprudence. Ce simple élément, pourtant principale caractéristique du processus de justice prédictive remet en cause son efficacité</p>
+      <p class="text_basic">D’une part, en France, l’open-data judiciaire n’est pas encore consacré. Cependant, la loi n° 2016-1321 du 7 octobre 2016 pour une République numérique le prévoit à ses articles 20 et 21. L’open-data judiciaire arrive donc, mais pour l’instant, les décisions de justice ingérées par l’algorithme ne sont pas exhaustives, biaisant le résultat final. Ainsi, Predictice dispose des décisions de justice des 30 dernières années des deux hautes juridictions que sont le Conseil d’Etat et la Cour de Cassation, les 10 dernières années des trente-six Cours d’appel, et une sélection de première instance dont Louis Larret-Chahine admet qu’elle est incomplète. Les données dont se nourrit le logiciel omettent donc une bonne partie des décisions de justice, ce qui le rend biaisé.</p>
+      <p class="text_basic">D’autre part, nous le savons, l’erreur est humaine. Si l’on peut alors penser qu’un algorithme se basant sur des données “objectives” ne puisse pas se tromper, on a tort. 
+Les données sur lesquelles l’algorithme se basent proviennent en effet des décisions de justice rendues par des juges, et donc, des êtres humains. Nous savons par ailleurs que les juges, bien que théoriquement impartiaux, sont des êtres sujets aux préjugés, soumis à une pression extérieure, etc.. Si l’on part de ce postulat, il y a des chances pour que l’algorithme se nourrissant de la jurisprudence se nourrisse, à même titre, des erreurs judiciaires, reproduise des clichés et les amplifie de par leur systématisation, ce qui peut entraîner, à terme, une stigmatisation au sein de la population. 
+</p>
+      <p class="text_basic">Ce phénomène a pu être constaté aux Etats-Unis où l’intelligence artificielle au service de la justice est beaucoup plus développé et est notamment appliquée dans le domaine pénal. </p>
+      <p class="text_italic">On assiste aux États-Unis, depuis une trentaine d’années, au “passage d’une pénologie axée sur l’individu et sa punition à une pénologie axée sur la gestion de groupes à risques, leur surveillance et leur contrôle, afin de réguler les niveaux d’une délinquance considérée comme un risque normal dans la société” affirme Philippe Mary (professeur à la Faculté de Droit et de Criminologie de Bruxelles) dans son ouvrage Pénalité et gestion des risques : vers une justice « actuarielle » en Europe ?</p>
+      <p class="text_basic">La justice actuarielle se base aujourd’hui en Amérique sur des algorithmes pour définir le taux de risque de récidive. Cependant, ce que tente de montrer la célèbre data scientist Cathy O’Neil dans son ouvrage Weapons of Math Destruction, c’est ce que ces algorithmes sont biaisés et « racistes ». En effet, certaines variables telles que le diplôme, l’ethnie ou encore la richesse ne sont pas liées directement à un profil criminel. Quelqu’un ayant fait des études à l’université peut tout aussi commettre un crime qu’une personne ayant échoué dès le brevet. Cependant, une personne riche, avec de bons diplômes, arrivera généralement à se payer un bon avocat et à éviter d’être condamné, contrairement à une personne pauvre. Ainsi, ces variables biaisées peuvent influencer les algorithmes, et les enjoindre à condamner pour 10 ans un homme noir, pauvre et n’ayant pas suivi d’études pour excès de vitesse, comme il peut condamner pour 3 ans un homme blanc, riche, avec de hauts diplômes pour avoir tué quelqu’un. Cela est dit de façon un peu caricaturale, mais le risque de cette justice actuarielle est bien réelle. </p>
+      <p class="text_basic">Ainsi, le logiciel Compas, conçu par l’entreprise américaine Northpointe et massivement utilisé par les Cours de Justice américaines s’est vu faire l’objet d’un scandale. Calculant les chances de récidive d’un sujet (d’une échelle allant de 1 à 10, 10 étant un risque très élevé de récidive) pour aider le juge à prendre une décision le concernant, il s’est avéré que son imperfection algorithmique discriminait les Noirs. Une enquête publiée par ProPublica met en exergue ce phénomène et dénonce la stigmatisation engendrée par le logiciel. Le site prend l’exemple de deux personnes arrêtées pour les mêmes faits. L’une est blanche, déjà condamnée à trois reprises pour des faits de vols ou tentatives de vols à main armée, l’autre est noire, condamnée pour des faits mineurs de délinquance juvénile. Compas, le logiciel de NorthPointe utilisé par les juges à cette époque-là renseigne la personne blanche avec un risque 3, c’est-à-dire faible, de récidive. La personne noire quant à elle est fichée en risque 8, c’est-à-dire élevé. Deux ans plus tard, celle-ni n’a commis aucune infraction et la première purge huit ans de prison pour des faits de cambriolage avec effraction à main armée. </p>
+      <p class="text_basic">Quel est le rapport avec la justice prédictive ? Eh bien le rapport ne se trouve pas dans les objectifs poursuivis par ces deux formes de justice (la justice actuarielle et la justice prédictive), étant donné que l’une cherche à limiter le risque de récidive tandis que l’autre prédit l’issue d’un litige. Le rapport se trouve dans l’utilisation similaire des algorithmes par ces deux justices. Et maintenant, on peut se demander, si la justice actuarielle connaît autant de dérives à cause de ces algorithmes biaisés, qu’est ce qui empêcherait la justice prédictive de connaître de telles dérives ? En effet, les propres algorithmes de la justice prédictive ne sont pas à l’abri de certaines décisions de justice rendues arbitrairement. 
+De plus, l’open data a permis un accès aux décisions de justice rendues il y a des années auparavant. Or, il faut bien admettre que les mentalités et les jugements ont évolué. Un algorithme saurait-il alors faire la différence entre une décision de justice rendue des années auparavant et une décision différente rendue aujourd’hui sur un même sujet,  résultant d’un changement de mentalité, de jugement des juristes ?
+</p>
+      <p class="text_basic">Il convient donc de prendre avec précaution ce qu’on tend parfois à imposer comme l’une des plus grandes avancées du XXIe siècle. Certes, l’intelligence artificielle permet une accélération de l’analyse de la jurisprudence, mais en aucun cas elle ne saurait remplacer la capacité décisionnelle d’un juge, un être humain doté de toutes les capacités sensorielles dont elle ne dispose pas, la rendant sujette à de grave erreurs d’interprétations pouvant mener à une forte stigmatisation. </p>
+      <p class="text_basic">Les algorithmes utilisés dans le cadre de la justice prédictive sont perfectibles.
+Bien que l’âge d’or de l’intelligence artificielle se rapproche au fur et à mesure que les recherches avancent, il reste, aujourd’hui certains aspects dont le développement et le contrôle ne sont toujours pas totalement maîtrisés.
+</p>
+      <p class="text_basic">En effet, le deep learning évoqué plus haut, bien que faisant l’objet des plus hautes considérations, manque encore cruellement de développement. Sa mise en place est extrêmement coûteuse et ses résultats ne sont pas forcément optimaux. Ceci est, entre autres dû au fait de la nécessité de nourrir l’algorithme d’un très grand nombre de données pour obtenir un logiciel de deep learning performant. </p>
+      <p class="text_basic">Cet effet pervers mène à une situation hybride en ce qui concerne les algorithmes utilisés pour la justice prédictive et notamment par Predictice. En effet, au sein des techniques de natural language processing, se distinguent certains modèles d’une simplicité extrême mais également d’une efficacité extrême. C’est la cas par exemple avec le random forest. Abordant de façon différente le traitement de texte, il s’appuie sur l’image d’un arbre à décisions. La traduction française est d’ailleurs “Forêt d’arbres décisionnels”. C’est-à-dire qu’il classifie des mots-clés sous forme d’arbres grâce à des décisions prises au fur et à mesure de l’auto-apprentissage.</p>
+      <p class="text_basic">Par exemple, si le logiciel détecte le mot “litige” à plusieurs reprises, il le catégorise comme mot important. Puis il voit que ce mot est souvent suivi d’un autre mot, le mot “voisin”. Il crée alors peu à peu des catégories sur lesquelles vont pouvoir être testés les autres mots : “litige avec un parent” ne correspondra pas à “litige avec un voisin”, et ainsi de suite. Il n’y a pas besoin d’une représentation quelconque comme c’est le cas avec le deep learning et quelques techniques de NLP, mais simplement de logique. </p>
+      <p class="text_basic">D’autres techniques encore plus “triviales” se superposent au random forest. Il est, par exemple, possible de décider d’enlever tout mot ou caractère superflu dans un texte en demandant au logiciel de supprimer les pluriels, les conjonctions, etc.. On réutilise finalement une connaissance ancestrale sur la grammaire pour l’appliquer au domaine de l’intelligence artificielle. </p>
+      <p class="text_basic">L’image d’une entreprise développée, maîtrisant l’intelligence artificielle, dont veulent se doter des starts-up comme Predictice, les encourage à mettre l’accent sur les techniques de deep learning, génération dernier cri de l’intelligence artificielle et propice au marketing et à la vente du service. C’est pourquoi on assiste à une sacralisation du logiciel qui est parfois injustifiée. </p>
+      <p class="text_basic">En effet, cette association de techniques peut rendre le résultat incertain. Ainsi, le test de Predictice effectué auprès de magistrats à la Cour d’Appel de Rennes sur plusieurs mois en 2017 n’a pas séduit. Xavier Ronsin, Président de la Cour d’Appel déplorait qu’aucune “plus-value” n’était apportée par le logiciel. Il pointait du doigt le fait qu’à l’époque du test, le logiciel distinguait mal corrélation et causalité. Dans le cas spécifique de décisions de justice de la Cour d’Appel il ne suffit pas d’en analyser la conclusion mais il est également nécessaire de comprendre la motivation d’une telle conclusion. Cette tâche a mal été réalisée par la machine qui ne disposait pas par exemple des faits complets du litige, puisqu’en deuxième instance juridictionnelle, on ne revient que sur les faits sujets à débat. Il y avait donc un type d’asymétrie d’information fatale pour la bonne analyse de la décision de justice. </p>
+      <p class="text_italic">Le juge ou le professionnel du droit apparaît finalement le mieux placé pour analyser les décisions de justice.</p>
+
+
+      <h4 id="ancre4">Conclusion</h4>
+
+      <p class="text_basic">L’intelligence artificielle se plie donc aux exigences de la justice prédictive. Elle le fait mais avec quelques limites. La principale étant les données sur lesquelles elle se base pour analyser les décisions de justice. Reproduisant une jurisprudence loin d’être objective, elle enlève toute personnalisation de l’affaire, pouvant mener, à l’extrême à une stigmatisation, ou du moins, à la systématisation des décisions de justice. </p>
+      <p class="text_basic">Le coût des algorithmes développés pour répondre aux impératifs de la justice prédictive posent le problème d’une éventuelle privatisation du processus judiciaire. C’est ce que nous verrons à la rubrique suivante.  </p>
+       
+      </div>
+
+
+      <div class="box_plan_chapitre">
+        <ul>
+          <li class="chapitre_liste"><a href="#ancre1">      Introduction</a></li>
+          <li class="chapitre_liste"><a href="#ancre2">I.    Intelligence artificielle</a></li>
+          <li class="chapitre_liste"><a href="#ancre3">II.   Incertitude</a></li>
+          <li class="chapitre_liste"><a href="#ancre4">III.  Conclusion</a></li>
+        </ul>
+      </div>
+
+	</body>
+</html>
